@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(72, 238, 244);
+    color:  rgba(254, 8, 115, 0.966);
+}
+p{
+    color: rgb(0, 183, 255);
+}
+
+a{
+    background-color: rgb(123, 77, 6);
+}
+
+#first{
+    background-color: blanchedalmond;
+}
+
+.red{
+    background-color: aqua;
+}
+.babu{
+    color: blueviolet;
+}
+#st{
+    background-color: black;
+}body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #e2e2e2;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #e2e2e2;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.job, .school, .project {
+    margin-bottom: 15px;
+}
+
+.job h3, .school h3, .project h3 {
+    font-size: 20px;
+    margin: 0 0 5px 0;
+}
+
+.job p, .school p, .project p {
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+}
+
+ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.skills ul li:nth-child(odd) {
+    background-color: #d4d4d4;
+}
+
+.skills ul li:hover {
+    background-color: #c4c4c4;
+}
+
+.project {
+    padding-left: 10px;
+    border-left: 3px solid #007BFF;
+    margin-bottom: 15px;
+}
